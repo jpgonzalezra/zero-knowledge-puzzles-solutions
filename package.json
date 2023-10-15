@@ -13,6 +13,7 @@
     "url": "https://github.com/RareSkills/zero-knowledge-puzzles"
   },
   "dependencies": {
+    "hardhat": "2.18.1",
     "@nomiclabs/hardhat-waffle": "^2.0.5",
     "chai": "^4.3.7",
     "circom_tester": "^0.0.19",
