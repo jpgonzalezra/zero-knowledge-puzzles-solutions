@@ -6,8 +6,15 @@ pragma circom 2.1.4;
 // HINT: Non Quadratic constraints are not allowed. 
 
 template Pow() {
-   
-   // Your Code here.. 
+
+   signal input a[2];
+
+   var base = a[0];
+   var exponent = a[1];
+
+   signal result <-- base ** exponent;
+
+   signal output c <== result;
 }
 
 component main = Pow();
